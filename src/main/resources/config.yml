@@ -1,0 +1,23 @@
+config-version: 1
+
+Database:
+  AutoSave: 6000
+
+Setting:
+  LimitPerAttempt: 500
+  Disable-BoneMeal: false
+  OnlyBreakOwner: false
+  CheckWater:
+    Enabled: true
+    Radius: 4
+
+Crop:
+  WHEAT:
+    Enabled: false
+    GrowthTime: 20
+  POTATOES:
+    Enabled: false
+    GrowthTime: 10
+  CARROTS:
+    Enabled: false
+    GrowthTime: 15

@@ -1,0 +1,8 @@
+Database: #Available types: flat, sqlite, mysql // Server restart required
+  Type: flat
+  Host: 'localhost'
+  Port: 3306
+  Database: 'CropControl'
+  Username: 'username'
+  Password: 'password'
+  Prefix: 'cc'

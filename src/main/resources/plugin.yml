@@ -1,0 +1,14 @@
+name: CropControl
+version: 1.0 #'${project.version}'
+main: me.msicraft.cropcontrol.CropControl
+api-version: 1.16
+authors: [ msicraft ]
+commands:
+  cropcontrol:
+    description: crop control main command
+    permission: cropcontrol.command
+    aliases: [cc, crop]
+permissions:
+  cropcontrol.command:
+    default: op
+    description: crop control main command permission
